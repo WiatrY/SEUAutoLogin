@@ -29,6 +29,5 @@ jobs:
     - name: do report
       run: |
         python ./dayReport.py -u ${{ secrets.CARD_NUM }} -p ${{ secrets.PASSWORD }}
-        python ./dayReport.py -t 19
-        python ./dayReport.py -t 20
+
         
